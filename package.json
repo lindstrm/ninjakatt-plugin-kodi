@@ -1,6 +1,6 @@
 {
   "name": "ninjakatt-plugin-kodi",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,11 +10,11 @@
   "author": "Joachim Lindström",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lindstrm/ninjakatt-plugin-qbittorrent.git"
+    "url": "https://github.com/lindstrm/ninjakatt-plugin-kodi.git"
   },
-  "homepage": "https://github.com/lindstrm/ninjakatt-plugin-qbittorrent",
+  "homepage": "https://github.com/lindstrm/ninjakatt-plugin-kodi",
   "bugs": {
-    "url": "https://github.com/lindstrm/ninjakatt-plugin-qbittorrent/issues"
+    "url": "https://github.com/lindstrm/ninjakatt-plugin-kodi/issues"
   },
   "license": "ISC",
   "dependencies": {
