@@ -20,7 +20,7 @@ module.exports = class Kodi extends Base {
       client.on('connected', () => {
         emitter.emit(
           'message',
-          `[Kodi] Connected to ${host.host}:${host.port}`,
+          `Connected to ${host.host}:${host.port}`,
           'connect',
           Kodi.name
         );
@@ -29,7 +29,7 @@ module.exports = class Kodi extends Base {
       client.on('disconnected', () => {
         emitter.emit(
           'message',
-          `[Kodi] Disconnected from ${host.host}:${host.port}`,
+          `Disconnected from ${host.host}:${host.port}`,
           'connect',
           Kodi.name
         );
