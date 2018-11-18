@@ -1,6 +1,6 @@
 {
   "name": "ninjakatt-plugin-kodi",
-  "version": "1.0.3",
+  "version": "1.0.7",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,6 @@
   },
   "license": "ISC",
   "dependencies": {
-    "kodi-ws": "^2.4.3",
-    "ninjakatt-plugin-base": "^1.0.0"
+    "kodi-ws": "^2.4.3"
   }
 }

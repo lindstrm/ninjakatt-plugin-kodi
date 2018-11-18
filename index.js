@@ -1,9 +1,8 @@
-const Base = require('ninjakatt-plugin-base');
 const Client = require('./Client');
 const emitter = global.emitter;
-module.exports = class Kodi extends Base {
+module.exports = class Kodi {
   constructor() {
-    super(__dirname);
+    this.construct(__dirname);
     this.clients = [];
     this.scrobbled = [];
   }
@@ -30,7 +29,7 @@ module.exports = class Kodi extends Base {
         emitter.emit(
           'message',
           `Disconnected from ${host.host}:${host.port}`,
-          'connect',
+          'disconnect',
           Kodi.name
         );
       });
